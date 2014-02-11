@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781669C118A9C54D0097D707 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 781669C018A9C54D0097D707 /* Pumpkin.m */; };
+		781669C418A9CEBC0097D707 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 781669C318A9CEBB0097D707 /* Potato.m */; };
+		781669C718A9D04F0097D707 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 781669C618A9D04F0097D707 /* Onion.m */; };
+		781669CA18A9D0C90097D707 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 781669C918A9D0C90097D707 /* Pumpkin.m */; };
+		7897329618A9DACD000DAD90 /* iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7897329518A9DACD000DAD90 /* iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png */; };
 		8B650731189808D400D912AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650730189808D400D912AF /* UIKit.framework */; };
 		8B650733189808D400D912AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650732189808D400D912AF /* Foundation.framework */; };
 		8B650735189808D400D912AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650734189808D400D912AF /* CoreGraphics.framework */; };
@@ -21,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		781669BF18A9C54D0097D707 /* Vegtables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegtables.h; sourceTree = "<group>"; };
+		781669C018A9C54D0097D707 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		781669C218A9CEBB0097D707 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		781669C318A9CEBB0097D707 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		781669C518A9D04F0097D707 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		781669C618A9D04F0097D707 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		781669C818A9D0C90097D707 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		781669C918A9D0C90097D707 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		7897329518A9DACD000DAD90 /* iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png"; path = "../../../Desktop/iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png"; sourceTree = "<group>"; };
 		8B65072D189808D400D912AF /* Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B650730189808D400D912AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B650732189808D400D912AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +102,15 @@
 				8B650748189808D400D912AF /* ViewController.h */,
 				8B650749189808D400D912AF /* ViewController.m */,
 				8B65074B189808D400D912AF /* ViewController.xib */,
+				7897329518A9DACD000DAD90 /* iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png */,
+				781669BF18A9C54D0097D707 /* Vegtables.h */,
+				781669C018A9C54D0097D707 /* Pumpkin.m */,
+				781669C818A9D0C90097D707 /* Pumpkin.h */,
+				781669C918A9D0C90097D707 /* Pumpkin.m */,
+				781669C518A9D04F0097D707 /* Onion.h */,
+				781669C618A9D04F0097D707 /* Onion.m */,
+				781669C218A9CEBB0097D707 /* Potato.h */,
+				781669C318A9CEBB0097D707 /* Potato.m */,
 				8B650737189808D400D912AF /* Supporting Files */,
 			);
 			path = Fruit;
@@ -163,6 +186,7 @@
 				8B650745189808D400D912AF /* Default@2x.png in Resources */,
 				8B650747189808D400D912AF /* Default-568h@2x.png in Resources */,
 				8B65074D189808D400D912AF /* ViewController.xib in Resources */,
+				7897329618A9DACD000DAD90 /* iOS Simulator Screen shot Feb 10, 2014 11.12.33 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +200,10 @@
 				8B65073D189808D400D912AF /* main.m in Sources */,
 				8B650741189808D400D912AF /* AppDelegate.m in Sources */,
 				8B65074A189808D400D912AF /* ViewController.m in Sources */,
+				781669C118A9C54D0097D707 /* Pumpkin.m in Sources */,
+				781669C418A9CEBC0097D707 /* Potato.m in Sources */,
+				781669C718A9D04F0097D707 /* Onion.m in Sources */,
+				781669CA18A9D0C90097D707 /* Pumpkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +326,7 @@
 				8B650752189808D500D912AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

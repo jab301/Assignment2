@@ -1,23 +1,23 @@
 //
-//  Fruit.m
+//  Vegtables.m
 //  Fruit
 //
-//  Created by Build User on 1/28/14.
+//  Created by Jon Lustig on 2/10/14.
 //  Copyright (c) 2014 Pitt. All rights reserved.
 //
 
-#import "Fruit.h"
+#import "Vegtables.h"
 
-@implementation Fruit
+@implementation Vegtables
 
-- initWithName:(NSString *)inName andShape:(NSString *)inShape andColor:(NSString *)inColor {
+-(id)initWithName:(NSString *)inName andShape:(NSString *)inShape andColor:(id)inColor {
     self = super.init;
     if (self) {
         _name = inName;
         _color = inColor;
         _shape = inShape;
     }
-
+    
     return self;
 }
 
@@ -30,5 +30,4 @@
     return [[NSString alloc] initWithFormat:@"%@ is %@ and %@", _name, _color, _shape];
     
 }
-
 @end

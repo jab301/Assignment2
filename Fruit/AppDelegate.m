@@ -10,9 +10,11 @@
 
 #import "ViewController.h"
 
-#import "Apple.h"
-#import "GrannySmith.h"
-#import "Fruit.h"
+
+#import "Potato.h"
+#import "Onion.h"
+#import "Pumpkin.h"
+#import "Vegtables.h"
 
 @implementation AppDelegate
 
@@ -26,23 +28,18 @@
     
     
     
-    
-    Apple * anApple = [[Apple alloc] init];
-    GrannySmith *notherApple = [[GrannySmith alloc] init];
-    
 
-    Fruit * aBanana = [[Fruit alloc] initWithName:@"Banana"  andShape:@"Curved" andColor:@"Yellow"];
-    Fruit * aGrape = [[Fruit alloc] initWithName:@"Grape" andShape:@"Round" andColor:@"Purple"];
     
-    NSLog(@"%@ is %@ and %@.", [notherApple name], [notherApple shape], [notherApple color]);
-    NSLog(@"%@ is %@ and %@.", [anApple name], [anApple shape], [anApple color]);
-    
-    NSLog(@"%@", [aBanana printSelf]);
-    NSLog(@"%@", [notherApple printSelf]);
-    //NSLog(@"%@ is %@ and %@.", aBanana.name, aBanana.shape, aBanana.color);
-    NSLog(@"%@ is %@ and %@.", [aGrape name], [aGrape shape], [aGrape color]);
-    
+    Vegtables * aPotato = [[Vegtables alloc] initWithName:@"Potato"  andShape:@"Round" andColor:@"Brown"];
+    Vegtables * aOnion = [[Vegtables alloc] initWithName:@"Onion"  andShape:@"Round" andColor:@"White"];
+    Vegtables * aPumpkin = [[Vegtables alloc] initWithName:@"Pumpkin"  andShape:@"Round" andColor:@"Orange"];
 
+    
+ 
+    
+    NSLog(@"%@ is %@ and %@.", [aPotato name], [aPotato shape],[aPotato color]);
+    NSLog(@"%@ is %@ and %@.", [aOnion name], [aOnion shape],[aOnion color]);
+    NSLog(@"%@ is %@ and %@.", [aPumpkin name], [aPumpkin shape],[aPumpkin color]);
     
     return YES;
 }

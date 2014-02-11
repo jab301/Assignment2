@@ -1,17 +1,16 @@
 //
-//  Fruit.h
+//  Vegtables.h
 //  Fruit
 //
-//  Created by Build User on 1/28/14.
+//  Created by Jon Lustig on 2/10/14.
 //  Copyright (c) 2014 Pitt. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Fruit : NSObject
+@interface Vegtables : NSObject
 
-- initWithName:(NSString *)inName
-     andShape:(NSString *)inShape andColor:(NSString *)inColor ;
+- initWithName:(NSString *)inName andShape:(NSString *)inShape andColor:(NSString *)inColor;
 - (NSString *) printSelf;
 
 @property (nonatomic, strong) NSString* name;
